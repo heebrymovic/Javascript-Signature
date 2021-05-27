@@ -1,0 +1,14 @@
+html, body{ padding: 0; margin: 0; -webkit-tap-highlight-color:transparent; text-align: center; }
+.note{ font-size: 25px;margin:20px 0;  }
+.canvasBox{ width: 50vw; height: 50vh; margin: auto; position: relative; }
+canvas{  position: absolute; display: block; cursor: pointer; touch-action: none; }
+button{  background: transparent; margin: 10px; border: 2px solid grey; border-radius: 10px; padding: 10px; cursor: pointer; font-size: 20px;}
+img#signature{ display: block; margin: auto; width: 50%;}
+
+
+
+	@media ( max-width: 768px) {
+
+		.canvasBox{ width: 90vw; }
+		img#signature{ width: 40%; }
+	}
